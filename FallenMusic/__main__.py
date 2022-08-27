@@ -242,7 +242,7 @@ async def fallen_home(_, CallbackQuery):
                     text=" ʜᴇʟᴩ ", callback_data="fallen_help"
                 ),
                 InlineKeyboardButton(
-                    text=" ᴏᴡɴᴇʀ ", user_id=F_OWNER
+                    text=" ᴍᴀɪɴᴛᴀɪɴᴇʀ ", user_id=F_OWNER
                 )
             ],
             [
