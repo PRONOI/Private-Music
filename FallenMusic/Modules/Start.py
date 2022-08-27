@@ -65,23 +65,23 @@ async def gstart(_, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=F_OWNER
+                    text=" ᴏᴡɴᴇʀ ", user_id=F_OWNER
                 ),
                 InlineKeyboardButton(
-                    text="❄ ʜᴇʟᴩ ❄", callback_data="fallen_help"
+                    text=" ʜᴇʟᴩ ", callback_data="fallen_help"
                 )
             ],
             [
                 InlineKeyboardButton(
-                    text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT
+                    text=" sᴜᴩᴩᴏʀᴛ ", url=config.SUPPORT_CHAT
                 ),
                 InlineKeyboardButton(
-                    text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
+                    text=" ᴄʜᴀɴɴᴇʟ ", url=config.SUPPORT_CHANNEL
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/FallenMusic"
+                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://github.com/AnonymousR1025/FallenMusic"
                 ),
             ],
         ]
