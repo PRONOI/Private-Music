@@ -65,7 +65,7 @@ async def gstart(_, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text=" ᴏᴡɴᴇʀ ", user_id=F_OWNER
+                    text=" ᴍᴀɪɴᴛᴀɪɴᴇʀ ", user_id=F_OWNER
                 ),
                 InlineKeyboardButton(
                     text=" ʜᴇʟᴩ ", callback_data="fallen_help"
