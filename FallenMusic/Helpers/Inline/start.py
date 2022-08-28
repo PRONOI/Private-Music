@@ -17,7 +17,7 @@ def start_pannel():
                     text=" ʜᴇʟᴩ ", callback_data="fallen_help"
                 ),
                 InlineKeyboardButton(
-                    text=" ᴏᴡɴᴇʀ ", user_id=F_OWNER
+                    text=" ᴍᴀɪɴᴛᴀɪɴᴇʀ ", user_id=F_OWNER
                 )
             ],
             [
@@ -30,7 +30,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://github.com/AnonymousR1025/FallenMusic"
+                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url=" "
                 )
             ],
         ]
