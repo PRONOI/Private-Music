@@ -20,7 +20,7 @@ def primary_markup(videoid, user_id):
             InlineKeyboardButton(
                 text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT
             ),
-            InlineKeyboardButton(text="↻ ᴄʟᴏsᴇ ↺", callback_data=f"close"),
+            InlineKeyboardButton(text="🗑️ ᴄʟᴏsᴇ", callback_data=f"close"),
         ],
     ]
     return buttons
@@ -34,13 +34,13 @@ audio_markup = InlineKeyboardMarkup(
             InlineKeyboardButton(text="‣‣I", callback_data=f"skipcb"),
             InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
-        [InlineKeyboardButton("↻ ᴄʟᴏsᴇ ↺", callback_data="close")],
+        [InlineKeyboardButton("🗑️ ᴄʟᴏsᴇ", callback_data="close")],
     ]
 )
 
 
 close_key = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton("✯ ᴄʟᴏsᴇ ✯", callback_data="close")],
+        [InlineKeyboardButton("↻ ᴄʟᴏsᴇ ↺", callback_data="close")],
     ]
 )
