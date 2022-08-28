@@ -16,14 +16,16 @@ def primary_markup(videoid, user_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"skipcb"),
             InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
-        [
-            InlineKeyboardButton(
-                text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT
-            ),
-            InlineKeyboardButton(text="↻ ᴄʟᴏsᴇ ↺", callback_data=f"close"),
-        ],
-    ]
-    return buttons
+    [
+      InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"url=config.SUPPORT_CHAT
+       ),
+      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ALONE_SUPPORT")
+    ],
+    [
+      InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ", callback_data=f'set_close'),
+    ],
+  ]
+  return buttons
 
 
 audio_markup = InlineKeyboardMarkup(
