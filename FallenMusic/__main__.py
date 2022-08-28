@@ -183,6 +183,12 @@ async def start_command(_, message):
                     ],
                 ]
             )
+else:
+            first_name = update.effective_user.first_name
+            update.effective_message.reply_sticker(
+                "CAACAgUAAxkBAAJYsmLWRvm70cE-mmxSNCovEf4v1ueJAAIcCAACbMK4VuL4EmZEkq8WKQQ"
+            )
+
             await m.delete()
             return await app.send_photo(
                 message.chat.id,
