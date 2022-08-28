@@ -19,7 +19,7 @@ def primary_markup(videoid, user_id):
     [
       InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"url=config.SUPPORT_CHAT
        ),
-      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/ALONE_SUPPORT")
+      InlineKeyboardButton(text="📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Xd_About")
     ],
     [
       InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ", callback_data=f'set_close'),
