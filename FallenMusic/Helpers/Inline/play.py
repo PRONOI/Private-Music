@@ -36,13 +36,13 @@ audio_markup = InlineKeyboardMarkup(
             InlineKeyboardButton(text="‣‣I", callback_data=f"skipcb"),
             InlineKeyboardButton(text="▢", callback_data=f"stopcb"),
         ],
-        [InlineKeyboardButton("↻ ᴄʟᴏsᴇ ↺", callback_data="close")],
+        [InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="close")],
     ]
 )
 
 
 close_key = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton("✯ ᴄʟᴏsᴇ ✯", callback_data="close")],
+        [InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="close")],
     ]
 )
