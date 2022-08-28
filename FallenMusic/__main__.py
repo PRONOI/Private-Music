@@ -134,6 +134,8 @@ async def start_command(_, message):
         name = (message.text.split(None, 1)[1]).lower()
         if name == "help":
             text, keyboard = await help_parser(message.from_user.mention)
+            await message.reply_sticker("CAACAgUAAxkBAAItCWMLaQTN-tK-nv6ahzmbf6BGSx7kAAI4BwACw6MIV6OVMyt70CNRKQQ")
+            await sleep.asyncio(3)
             await message.delete()
             return await app.send_text(
                 message.chat.id,
