@@ -24,7 +24,7 @@ HELPABLE = {}
 
 async def fallen_boot():
     with console.status(
-        "[magenta] Booting Fallen Music...",
+        "[magenta] Booting Music Bot...",
     ) as status:
         console.print("┌ [red]Clearing MongoDB Cache...")
         try:
