@@ -54,7 +54,7 @@ async def start_stream(
         final_output = await message.reply_photo(
             photo=thumb,
             caption=(
-                f"<b>➻ ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ ᴀᴛ {position}</b>\n\n<b>✨ ᴛɪᴛʟᴇ :</b> [{title[:30]}](https://www.youtube.com/watch?v={videoid}) \n☁ <b>ᴅᴜʀᴀᴛɪᴏɴ :</b> {duration_min} ᴍɪɴᴜᴛᴇs\n🥀 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {message.from_user.first_name}\n❄ <b>ɪɴғᴏ :</b> [{BOT_NAME}](https://t.me/{BOT_USERNAME}?start=info_{videoid})"
+                f"<b>➻ ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ ᴀᴛ {position}</b>\n\n<b>✨ ᴛɪᴛʟᴇ :</b> [{title[:30]}](https://www.youtube.com/watch?v={videoid}) \n🏷️ <b>ᴅᴜʀᴀᴛɪᴏɴ :</b> {duration_min} ᴍɪɴᴜᴛᴇs\n🧸 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {message.from_user.first_name}\n❄ <b>ɪɴғᴏ :</b> [{BOT_NAME}](https://t.me/{BOT_USERNAME}?start=info_{videoid})"
             ),
             reply_markup=InlineKeyboardMarkup(buttons),
         )
