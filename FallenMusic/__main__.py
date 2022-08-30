@@ -221,7 +221,7 @@ async def start_command(_, message):
             ],
             [
                 InlineKeyboardButton(
-                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://github.com/AnonymousR1025/Fallen-Music"
+                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/Xd_LyF"
                 )
             ],
         ]
@@ -259,7 +259,7 @@ async def fallen_home(_, CallbackQuery):
             ],
             [
                 InlineKeyboardButton(
-                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://github.com/AnonymousR1025/Fallen-Music"
+                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/Xd_LyF"
                 )
             ],
         ]
