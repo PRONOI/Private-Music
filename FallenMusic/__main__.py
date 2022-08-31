@@ -193,6 +193,7 @@ async def start_command(_, message):
                 parse_mode="markdown",
                 reply_markup=key,
             )
+           await message.reply_sticker("CAACAgUAAx0CZIiVngABBIpwYw9FIwWG7Y06fTg0g0rcK7V57FoAAnQFAAJi08lXQ3LSj2oj27YpBA")
     return await message.reply_photo(
         photo=config.START_IMG,
         caption=home_text_pm,
