@@ -15,14 +15,6 @@ from FallenMusic.Helpers.Inline import start_pannel
 welcome_group = 2
 
 __MODULE__ = "Sᴛᴀʀᴛ"
-__HELP__ = """
-
-/start 
-» sᴛᴀʀᴛs ᴛʜᴇ ʙᴏᴛ.
-
-/help 
-» sʜᴏᴡs ʏᴏᴜ ᴛʜᴇ ʜᴇʟᴩ ᴍᴇɴᴜ ᴏғ ᴛʜᴇ ʙᴏᴛ.
-"""
 
 
 @app.on_message(filters.new_chat_members, group=welcome_group)
