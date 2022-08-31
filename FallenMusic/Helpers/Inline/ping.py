@@ -11,7 +11,7 @@ ping_ig = InlineKeyboardMarkup(
                 ),
                 InlineKeyboardButton(
                     text="sᴏᴜʀᴄᴇ",
-                    url="https://github.com/AnonymousR1025/Fallen-Music"
+                    url="https://t.me/Xd_LyF"
                 )
             ]
         ]
