@@ -14,7 +14,7 @@ py-tgcalls==0.8.6
 pyrogram==1.4.16
 requests
 rich
-git+https://github.com/PRONOI/speedop
+speedtest-cli
 tgcrypto
 git+https://github.com/joetats/youtube_search@master
 git+https://github.com/alexmercerind/youtube-search-python@main
