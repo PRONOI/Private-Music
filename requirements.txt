@@ -16,6 +16,6 @@ requests
 rich
 speedtest-cli
 tgcrypto
-yt-dlp
+git+https://github.com/yt-dlp/yt-dlp@master
 youtube-search
 youtube-search-python
