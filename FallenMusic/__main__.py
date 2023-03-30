@@ -222,7 +222,7 @@ async def start_command(_, message):
             ],
             [
                 InlineKeyboardButton(
-                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/Xd_LyF"
+                    text=" ᴘᴏʀᴛꜰᴏʟɪᴏ ", url="http://itz-pranay.rocks/"
                 )
             ],
         ]
@@ -260,7 +260,7 @@ async def fallen_home(_, CallbackQuery):
             ],
             [
                 InlineKeyboardButton(
-                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/Xd_LyF"
+                    text=" ᴘᴏʀᴛꜰᴏʟɪᴏ ", url="http://itz-pranay.rocks/"
                 )
             ],
         ]
