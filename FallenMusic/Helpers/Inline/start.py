@@ -30,7 +30,7 @@ def start_pannel():
             ],
             [
                 InlineKeyboardButton(
-                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url=" "
+                    text=" ᴘᴏʀᴛꜰᴏʟɪᴏ ", url=" "
                 )
             ],
         ]
@@ -62,7 +62,7 @@ def private_panel():
             ],
             [
                 InlineKeyboardButton(
-                    text=" sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url=" "
+                    text=" ᴘᴏʀᴛꜰᴏʟɪᴏ ", url=" "
                 ),
             ],
         ]
