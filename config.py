@@ -17,7 +17,7 @@ LOGGER_ID = int(getenv("LOGGER_ID"))
 MONGO_DB_URI = getenv("MONGO_DB_URI")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1063334882").split()))
 
-PING_IMG = getenv("PING_IMG", "https://unitedcamps.in/Images/file_6694.jpg")
+PING_IMG = getenv("PING_IMG", "https://graph.org//file/389a372e8ae039320ca6c.png")
 START_IMG = getenv("START_IMG")
 
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ALONExSUPPORT")
